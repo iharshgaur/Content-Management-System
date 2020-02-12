@@ -1,0 +1,110 @@
+/* Main */
+.shadow-card {
+	text-align: center;
+	-webkit-box-shadow: 0px 8px 22px 0px rgba(50, 50, 50, 0.15);
+	-moz-box-shadow: 0px 8px 22px 0px rgba(50, 50, 50, 0.15);
+	box-shadow: 0px 8px 22px 0px rgba(50, 50, 50, 0.15);
+	-webkit-transition-duration: 0.45s; /* Safari */
+    transition-duration: 0.45s;
+}
+
+.shadow-card:hover {
+	-webkit-box-shadow: 0px 10px 22px 4px rgba(50, 50, 50, 0.18);
+	-moz-box-shadow: 0px 10px 22px 4px rgba(50, 50, 50, 0.18);
+	box-shadow: 0px 10px 22px 4px rgba(50, 50, 50, 0.18);
+}
+
+
+
+/* Login */
+.login_b {
+	background-image: url('../../assets/images/aca.jpg');
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+.sign-in {
+	width: 24rem;
+	margin-left: 5%;
+	margin-top: 10%;
+	text-align: center;
+}
+
+.usn {
+	width: 50%;
+	margin-top: 20px;
+}
+
+.password {
+	width: 90%;
+	margin-top: 20px;
+}
+
+.login {
+	width: 30%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	-webkit-transition-duration: 0.45s; /* Safari */
+    transition-duration: 0.45s;
+}
+
+.login:hover {
+	   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.15), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Home */
+
+.font {
+	color: #999999;
+	padding-top: 10px;
+	font-family: 'Roboto';
+	font-size: 1.4em;
+	letter-spacing: 1.6px;
+	-webkit-transition-duration: 0.45s; /* Safari */
+    transition-duration: 0.45s;
+}
+
+.box {
+	width: 18rem;
+	margin-left: 10px;    
+}
+
+.space {
+	margin-top: 95px;
+}
+
+#att-per{
+	font-size: 1.6em;
+	color: #999999;
+	margin-bottom: 13px;
+	-webkit-transition-duration: 0.45s; /* Safari */
+    transition-duration: 0.45s;
+}
+
+#pill-notice {
+	width: 30px;
+	margin-left: 270px;
+	text-align: center;
+	font-size: 0.9em;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.20), 0 5px 40px 0 rgba(0,0,0,0.20);
+
+}
+
+
+/* Registration */
+.login_reg {
+	background-image: url('../../assets/images/aca-blur.jpg');
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+/* Notices */
+.notices {
+	margin-top: 150px;
+}
